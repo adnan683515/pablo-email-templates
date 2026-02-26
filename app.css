@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+/* Container */
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+}
+
+.content {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header Logo */
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+}
+
+/* Two Column Layout */
+.column-container {
+    padding: 20px;
+    font-size: 0;
+    text-align: center;
+}
+
+.col-left {
+    width: 100%;
+    max-width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.col-right {
+    width: 100%;
+    max-width: 290px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+/* Typography & Buttons */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003344;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #00AAEE;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    color: #00AAEE;
+    border: 1px solid #00AAEE;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+/* Right Side Card Styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.feature-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.feature-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.btn-pricing {
+    background-color: #e3f2fd;
+    color: #003344;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 600px) {
+
+    .col-left,
+    .col-right {
+        max-width: 100% !important;
+    }
+
+    .col-left {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .col-right {
+        padding-left: 0 !important;
+    }
+}

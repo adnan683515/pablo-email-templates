@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ancor.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .intro-text {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        /* Testimonial Style Section */
+        .feature-block {
+            position: relative;
+            margin-bottom: 80px;
+            height: 320px;
+        }
+
+        .image-wrapper {
+            width: 70%;
+            height: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content-box {
+            position: absolute;
+            width: 65%;
+            /* Glass Effect properties */
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(1px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+            top: 60px;
+            z-index: 2;
+        }
+
+        /* Alternating Layouts */
+        .left-img .image-wrapper {
+            float: left;
+        }
+
+        .left-img .content-box {
+            right: 0;
+        }
+
+        .right-img .image-wrapper {
+            float: right;
+        }
+
+        .right-img .content-box {
+            left: 0;
+        }
+
+        .stars {
+            color: #FFB400;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .box-title {
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .box-desc {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Button */
+        .cta-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            background-color: #00A7EE;
+            color: white !important;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            display: inline-block;
+        }
+
+        .footer {
+            border-top: 1px solid #eee;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .social-icons img {
+            width: 24px;
+            margin: 0 10px;
+        }
+
+        .app-links img {
+            width: 120px;
+            margin: 15px 5px;
+        }
+
+        .section-logo {
+            width: 50px;
+            height: 70px;
+            /* border: 1px solid black; */
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div>
+        <a href="./email2.html">Email 2</a>
+    </div>
+
+
+    <div class="container">
+        <div class="header">
+            <img src="./logo.png" width="120" alt="Logo">
+        </div>
+
+        <div class="intro-text">
+            Hi Jp,<br><br>
+            The convenience of Rinse is a game-changer. Our specialized services are designed to make your life easier
+            and your clothes last longer.
+        </div>
+
+        <div class="feature-block left-img">
+            <div class="image-wrapper">
+                <img src="./Wash.png" alt="Wash and Fold">
+            </div>
+            <div class="content-box">
+                <div class="section-header">
+                    <div>
+                        <div class="stars">★★★★★</div>
+                        <span class="box-title">Wash & Fold Laundry</span>
+                    </div>
+                    <div><img class="section-logo" src="./washGenji.png" alt=""></div>
+                </div>
+                <p class="box-desc">Rinse Repeat offers expert wash-and-fold services with next-day delivery and 5-star
+                    customer ratings. Schedule by 8 AM for professional cleaning that makes laundry easier and ensures
+                    clothes last longer.</p>
+
+            </div>
+        </div>
+
+        <div class="feature-block right-img">
+            <div class="image-wrapper">
+                <img src="./imag2.png" alt="Hang Dry">
+            </div>
+            <div class="content-box">
+                <div class="section-header">
+                    <div>
+                        <div class="stars">★★★★★</div>
+                        <span class="box-title">Delicate Hang Dry</span>
+                        <p class="box-desc">🧺 Hang Dry Service
+                            Para sa mga maseselang damit (Activewear, Fleece, Blouses) na bawal sa dryer.
+
+                            Process: Machine wash + Air-dry.
+
+                            Turnaround: 1 business day.
+
+                            Pricing:
+
+                            Undergarments: $1.49
+
+                            Other Items: $4.49</p>
+                    </div>
+                    <div>
+                        <img class="section-logo" src="./FK3 1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="feature-block left-img">
+            <div class="image-wrapper">
+                <img src="./image3.png" alt="Dry Cleaning">
+            </div>
+            <div class="content-box">
+                <div class="section-header">
+                    <div>
+                        <div class="stars">★★★★★</div>
+                        <span class="box-title">Dry Cleaning & Press</span>
+                        <p class="box-desc">
+                            ✨ Dry Clean & Press
+                            Service: Quality cleaning, pretreating, and pressing for formal or household items.
+
+                            Speed: Next business day turnaround.
+
+                            Rates:
+
+                            Dress Shirt (Machine Press): $4.99
+
+                            Standard Items (Pants, Skirts, etc.): $11.99
+
+                            Comforter/Duvet: $39.99.</p>
+                    </div>
+                    <div>
+                        <img class="section-logo" src="./HD FINAL 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-container">
+            <a href="#" class="cta-button">Check out  Services</a>
+        </div>
+
+
+
+
+        <div class="footer" style="text-align: center; padding: 20px; font-family: sans-serif;">
+            <p style="font-size: 12px; color: #999; font-weight: 700; letter-spacing: 1px;">CONNECT WITH US</p>
+
+            <div class="social-icons" style="margin-bottom: 20px;">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"
+                        style="width: 24px; margin: 0 10px;"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"
+                        style="width: 24px; margin: 0 10px;"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"
+                        style="width: 24px; margin: 0 10px;"></a>
+            </div>
+
+            <div class="app-links">
+                <a href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                        alt="App Store" style="height: 40px; margin: 5px;"></a>
+                <a href="#"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                        alt="Google Play" style="height: 40px; margin: 5px;"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

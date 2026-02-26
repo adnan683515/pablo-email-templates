@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscribe & Save - Arki & Amk</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:#ffffff;
+}
+
+.container{
+    max-width:650px;
+    margin:20px auto;
+    padding:20px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:32px;
+    margin-bottom:15px;
+    color:#2d3436;
+}
+
+.hero-text p{
+    color:#636e72;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.hero-img{
+    flex:1;
+    text-align:center;
+}
+
+.hero-img img{
+    width:100%;
+    max-width:280px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.card{
+    border-radius:15px;
+    padding:30px;   /* 🔥 Proper Padding Added */
+    min-height:200px;
+}
+
+.card h3{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:18px;
+    color:#2d3436;
+}
+
+.card p, .card ul{
+    font-size:13px;
+    color:#636e72;
+    line-height:1.5;
+}
+
+.icon{
+    width:45px;
+    height:45px;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:20px;
+}
+
+.fast{ background:#f0faff; }
+.easy{ background:#f8f6ff; }
+.flexible{ background:#fcf8ff; }
+.lowest{ background:#eefcff; }
+
+.fast .icon{ background:#00acee; }
+.easy .icon{ background:#6c5ce7; }
+.flexible .icon{ background:#a29bfe; }
+.lowest .icon{ background:#00b8d4; }
+
+.footer{
+    text-align:center;
+    border-top:1px solid #eeeeee;
+    padding-top:30px;
+    font-size:12px;
+    color:#b2bec3;
+}
+
+.footer a{
+    color:#00acee;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+<div>
+    <a href="email5.html">Previous email 5</a>
+
+    <a href="email7.html">Next Email 7</a>
+</div>
+<div class="container">
+
+    <div class="logo">
+        <img src="./logo.png" width="180" alt="Logo">
+    </div>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Learn More About<br>Subscribe & Save</h1>
+            <p>Laundry keeps coming... give away your laundry chores.</p>
+            <p><b>Easy, fast, flexible, and lowest cost</b> — save up to 52% compared to Pay Per Order.</p>
+        </div>
+        <div class="hero-img">
+            <img src="./ImageWithFallback.png" alt="Discount">
+        </div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card fast">
+            <div class="icon">🕒</div>
+            <h3>Fast</h3>
+            <p>Next business day turnaround is our standard.</p>
+        </div>
+
+        <div class="card easy">
+            <div class="icon">⚡</div>
+            <h3>Easy</h3>
+            <p>Priced per bag, not per pound. No need to guess weight.</p>
+        </div>
+
+        <div class="card flexible">
+            <div class="icon">📅</div>
+            <h3>Flexible</h3>
+            <p>Unlimited roll over of unused bags. Extra bags charged at bag rate.</p>
+        </div>
+
+        <div class="card lowest">
+            <div class="icon">📉</div>
+            <h3>Lowest Cost</h3>
+            <ul>
+                <li>Free pickup & delivery</li>
+                <li>Waived service fees</li>
+                <li>Save up to 52%</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>You can change, pause, or cancel anytime.</p>
+        <a href="#">Manage Your Subscription ›</a>
+        <p style="margin-top:20px;">© 2026 Arki & Amk Laundry Co.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
